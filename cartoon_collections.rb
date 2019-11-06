@@ -17,7 +17,7 @@ end
 def long_planeteer_calls (words)
   i = 0 
   while i < words.length 
-    if 
+    if words.select {}
   end
 end
 
