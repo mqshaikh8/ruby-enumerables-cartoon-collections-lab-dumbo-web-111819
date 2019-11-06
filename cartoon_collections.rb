@@ -1,9 +1,17 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves (array)
+  counter = 0
+  while counter < array.length
+    puts "#{counter + 1}" + array[counter]
+    counter += 1
+  end  
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet (planteer_calls)
+
+  planteer_calls.each do |element|
+    planteer_calls << "#{element.upcase} !"
+  end
+  planteer_calls
 end
 
 def long_planeteer_calls# code an argument here
