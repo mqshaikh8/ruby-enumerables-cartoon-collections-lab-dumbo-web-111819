@@ -17,7 +17,13 @@ end
 def long_planeteer_calls (words)
   i = 0 
   while i < words.length 
-    if words.select {|word| }
+    if words.select {|letter| letter. length < 4 }
+      return true
+    elsif words.select {|letter| letter. length = 4 }
+      return true
+    else 
+      return false
+    end
   end
 end
 
